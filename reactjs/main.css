@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+#app {
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: purple;
+        height: 50px;
+
+        > * {
+            margin: 0 10px;
+        }
+    }
+
+    table {
+        width: 100%;
+        margin-top: 5px;
+        font-size: 14px;
+
+        thead {
+            background-color: lightblue;
+        }
+
+        th {
+            border-bottom: 2px solid purple;
+            font-style: italic;
+            color: darkslategray;
+        }
+
+        .odd-row {
+            background-color: lightblue;
+        }
+
+        .no-data {
+            text-align: center;
+        }
+    }
+}

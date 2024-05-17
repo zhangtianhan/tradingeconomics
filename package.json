@@ -1,0 +1,35 @@
+{
+  "name": "tradingeconomics",
+  "version": "0.1.0",
+  "description": "The Trading Economics API provides you with direct access to 300.000 economic indicators, exchange rates, stock market indexes, government bond yields and commodity prices. Providing several request methods to query our databases, with samples available in different programming languages, it is the best way to export data in XML, CSV or JSON format. The API can be used to feed a custom developed application, a public website or just off-the-shelf software like Microsoft Excel.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangtianhan/tradingeconomics.git"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "zhangtianhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangtianhan/tradingeconomics/issues"
+  },
+  "homepage": "https://github.com/zhangtianhan/tradingeconomics#readme",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^7.1.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tradingeconomics": "^2.4.0"
+  }
+}
