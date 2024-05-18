@@ -39,7 +39,16 @@ https://hub.docker.com/u/tradingeconomics
 
 https://tradingeconomics.com/api/
 
+#
 
+**Zhang Tianhan's comment for this project**
 
+*Prerequisite:* You need NPM in order to run this project. Please search on the Internet for how to install it on your operating system.
 
+Run following commands:
+```bash
+npm run build
+npm run dev
+```
 
+Then open your browser and access `localhost:8080`.
